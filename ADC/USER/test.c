@@ -70,6 +70,7 @@ int main(void)
 		LED0=1;
 		delay_ms(250);	
 		delay_ms(350);
+		delay_ms(450);
 	}
 }
 
