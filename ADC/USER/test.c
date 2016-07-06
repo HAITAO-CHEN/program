@@ -66,6 +66,8 @@ int main(void)
 //		printf("当前电压为：%dV",&adcx);
 		LED0=!LED0;
 		LED1=!LED1;
+		LED1=0;
+		LED0=1;
 		delay_ms(250);	
 		delay_ms(350);
 	}
